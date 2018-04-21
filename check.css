@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #F8C8B3;
+}
+.fly-in-text{
+	list-style: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.fly-in-text ul{
+	display: table;
+}
+.fly-in-text li{
+	display: table-cell;
+	margin-right: 50px;
+	font-family: Open Sans, Arial;
+	font-weight: 300;
+	font-size: 10em;
+	color: black;
+	opacity: 1;
+	transition: all 2.5s ease;
+
+
+}
+.fly-in-text li:last-child {
+	margin-right: 0;
+}
+.fly-in-text.hidden li{
+			opacity: 0;
+}
+.fly-in-text.hidden li:nth-child(1){
+	transform: translateX(-200px) translateY(-200px);
+}
+.fly-in-text.hidden li:nth-child(2){
+	transform: translateX(20px) translateY(100px);
+}
+.fly-in-text.hidden li:nth-child(3){
+	transform: translateX(-150px) translateY(-80px);
+}
+.fly-in-text.hidden li:nth-child(4){
+	transform: translateX(10px) translateY(-200px);
+}
+.fly-in-text.hidden li:nth-child(5){
+	transform: translateX(-300px) translateY(200px);
+}
+.fly-in-text.hidden li:nth-child(6){
+	transform: translateX(20px) translateY(-20px);
+}
+#top{
+	text-align: center;
+}
+.button{
+	background-color: #f9c65a;
+	color: black;
+	position: absolute;
+	top: 60%;
+	right: 45%;
+	padding: 10px;
+	border-radius: 8px;
+		
+
+}
+#top,#middle{
+    height: 800px;
+    width: 100%;
+    background: #F8C8B3; 
+}
+#middle{
+	text-align: center;
+}
+#middle button{
+	background-color: #f9c65a;
+	color: black;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 10px;
+	width: 70px;
+	border-radius: 8px;
+	margin-right: 10px;
+	margin-top: 200px;
+	margin-left: 15px;
+
+}
+#middle img{
+	display: block; 
+	margin-top: 300px;
+	margin-left: auto; 
+	margin-right: auto;
+	padding-top: 200px;
+   			
+}
